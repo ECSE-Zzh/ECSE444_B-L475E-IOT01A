@@ -1,0 +1,7 @@
+In lab 4, the Flash is not correctly used and is functioned as RAM.
+
+Instead of erasing blocks immediately after saving and reading data, we should only erase them once before using the flash.
+By doing so, we can store and hold data permanently.
+
+There are four sets of data, each of which is from a sensor on the board. Hence, the four sets of data should be saved separately (i.e. save them in four different blocks).
+To do so, we need to calculate the offset address of each block and save each set of data using the offset address.
