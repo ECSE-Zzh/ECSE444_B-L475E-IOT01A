@@ -653,7 +653,7 @@ void StartChangeModeTask(void const * argument)
 //	/* Infinite loop */
 	for(;;)
 	{
-		osDelay(5000);
+		osDelay(100);
 		if(flag == 1){
 			flag = 0;
 			sensorMode = counter % 5;
@@ -695,7 +695,7 @@ void StartTransmitDataTask(void const * argument)
 	/* Infinite loop */
 	for(;;)
 	{
-		osDelay(5000);
+		osDelay(100);
 
 		/////////---------------Temperature------------------///////////
 		if(sensorMode == 0){
@@ -1056,7 +1056,7 @@ void StartReadSensorTask(void const * argument)
 //  /* Infinite loop */
   for(;;)
   {
-	  osDelay(5000);
+	  osDelay(100);
 	  //Collect data from sensors
 	  BSP_ACCELERO_AccGetXYZ(acceleration);
 	  BSP_MAGNETO_GetXYZ(magnetic);
