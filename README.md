@@ -1,6 +1,6 @@
 # ECSE444_B-L475E-IOT01A
-* Language: C
+* **Language**: C
 
-IDE: STM32CubeIDE (ver. 1.31.1)
+* **IDE**: STM32CubeIDE (ver. 1.31.1)
 
-Board: B-L475E-IOT01A
+* **Board**: B-L475E-IOT01A
